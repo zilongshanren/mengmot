@@ -1,0 +1,4 @@
+baseURL = 'https://fengmot.com/'
+languageCode = 'en-us'
+title = 'fengmot'
+theme = 'lightbi-hugo'
