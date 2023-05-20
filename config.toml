@@ -1,7 +1,40 @@
 baseURL = 'https://fengmot.com/'
 languageCode = 'en-us'
-title = 'fengmot'
+title = '峰磨团'
 theme = 'lightbi-hugo'
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+#pygmentsUseClasses = true
+#pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+enableRobotsTXT = true
+enableGitInfo = false
+Paginate = 6
+
+[Params]
+mainSections = ["post","posts"]
+dateFormat = "2 January 2023"
+comments = false
+readingTime = false
+wordCount = false
+useHLJS = true
+socialShare = true
+delayDisqus = true
+showRelatedPosts = true
+summaryLength  = "9"
+gcse = false
+Lastmod = false
+rss = false
+pagination = "10"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [[menu.main]]             # config your menu              # 配置目录
   name = "Home"
