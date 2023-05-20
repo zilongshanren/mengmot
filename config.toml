@@ -2,3 +2,14 @@ baseURL = 'https://fengmot.com/'
 languageCode = 'en-us'
 title = 'fengmot'
 theme = 'lightbi-hugo'
+
+[[menu.main]]             # config your menu              # 配置目录
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "About"
+  weight = 50
+  identifier = "about"
+  url = "/about/"
